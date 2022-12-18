@@ -11,16 +11,16 @@ const CONFIG = {
   // └─┘┴ ┴└─┘┴└─┘└─┘
 
   // General
-  name: "John",
-  openInNewTab: true,
+  name: "Dorrel",
+  openInNewTab: false,
   title: "Bento",
 
   // Clock
-  twelveHourFormat: false,
+  twelveHourFormat: true,
   flashSeparator: false,
   
   // Theme
-  theme: "bento",
+  theme: "catppuccin-frappe",
   imageBackground: false,
   imageUrl: "background.jpg", // place in ./src/assets/images/ and provide the file name. Alternatively, provide a URL to an image. If the page is served over https, you may have issues loading images from insecure origins.
   themes: [   // List of installed themes, add your own themes in ./src/assets/css/themes and include it in the array below.
@@ -39,7 +39,7 @@ const CONFIG = {
 
   // Search Bar
   searchBar: true,
-  searchEngine: "google", // google, ddg
+  searchEngine: "ddg", // google, ddg
   barStyle: "bento", // bento, minimal, boxy, rounded
   barPlaceholder: "", // if blank, use search engine name. Set to ' ' for no placeholder.
   autoFocusBar: true,
@@ -54,9 +54,9 @@ const CONFIG = {
   bentoLayout: "bento", // 'bento', 'lists', 'buttons'
 
   // Weather
-  weatherKey: "YourOpenWeatherMapAPIKey", // Write here your API Key
-  weatherIcons: "OneDark", // 'Onedark', 'Nord', 'Dark', 'White'
-  weatherUnit: "C", // 'F', 'C'
+  weatherKey: "f2f28b06df1d16d614b9941f9effe18f", // Write here your API Key
+  weatherIcons: "OneDark", // 'OneDark', 'Nord', 'Dark', 'White'
+  weatherUnit: "F", // 'F', 'C'
   language: "en", // More languages in https://openweathermap.org/current#multi
 
   trackLocation: true, // Request location from the browser. If false, or location is denied, use the coordinates below.
@@ -82,39 +82,39 @@ const CONFIG = {
   firstButtonsContainer: [
     {
       id: "1", // entry ID, don't modify.
-      name: "Github", // set the name of the card
-      icon: "fab-github", // provide a FontAwesome icon name. Regular icons (fa-) don't require a prefix, while FA-Brands icons must be prefixed with "fab-"
-      link: "https://github.com/" // provide a link to the page.
+      name: "J-Novel Club", // set the name of the card
+      icon: "book", // provide a FontAwesome icon name. Regular icons (fa-) don't require a prefix, while FA-Brands icons must be prefixed with "fab-"
+      link: "https://j-novel.club/" // provide a link to the page.
     },
     {
       id: "2",
-      name: "Mail",
-      icon: "envelope",
-      link: "https://mail.protonmail.com/"
+      name: "MyAnimeList",
+      icon: "list",
+      link: "https://myanimelist.net/"
     },
     {
       id: "3",
-      name: "Todoist",
-      icon: "list-ol",
-      link: "https://todoist.com"
+      name: "Calibre-Web",
+      icon: "book-open",
+      link: "http://161.35.139.70:8083/"
     },
     {
       id: "4",
-      name: "Calendar",
-      icon: "calendar",
-      link: "https://calendar.google.com/calendar/r"
+      name: "Twitter",
+      icon: "fab-twitter",
+      link: "https://twitter.com/"
     },
     {
       id: "5",
       name: "Reddit",
       icon: "fab-reddit",
-      link: "https://reddit.com"
+      link: "https://reddit.com/"
     },
     {
       id: "6",
-      name: "Odysee",
-      icon: "fab-youtube",
-      link: "https://odysee.com/"
+      name: "GitHub",
+      icon: "fab-github",
+      link: "https://github.com/"
     }
   ],
 
@@ -164,46 +164,46 @@ const CONFIG = {
   // First Links Container
   firstlistsContainer: [
     {
-      icon: "music",
+      icon: "film",
       id: "1",
       links: [
         {
-          name: "Inspirational",
-          link: "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+          name: "YouTube",
+          link: "https://youtube.com/"
         },
         {
-          name: "Classic",
-          link: "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+          name: "Crunchyroll",
+          link: "https://crunchyroll.com"
         },
         {
-          name: "Oldies",
-          link: "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+          name: "Twitch",
+          link: "https://twitch.tv"
         },
         {
-          name: "Rock",
-          link: "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+          name: "Netflix",
+          link: "https://netflix.com"
         }
       ]
     },
     {
-      icon: "coffee",
+      icon: "globe",
       id: "2",
       links: [
         {
-          name: "Linkedin",
-          link: "https://www.linkedin.com"
+          name: "Proton Mail",
+          link: "https://mail.proton.me"
         },
         {
-          name: "Dribbble",
-          link: "https://www.dribbble.com"
+          name: "Dynalist",
+          link: "https://dynalist.io"
         },
         {
-          name: "Trello",
-          link: "https://www.trello.com"
+          name: "Snug Moe",
+          link: "https://snug.moe"
         },
         {
-          name: "Slack",
-          link: "https://www.slack.com"
+          name: "Discord",
+          link: "https://discord.com/app"
         }
       ]
     }
