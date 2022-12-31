@@ -198,8 +198,8 @@ const CONFIG = {
           link: "https://dynalist.io"
         },
         {
-          name: "Snug Moe",
-          link: "https://snug.moe"
+          name: "VT Social",
+          link: "https://vt.social"
         },
         {
           name: "Discord",
