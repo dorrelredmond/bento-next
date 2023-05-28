@@ -94,9 +94,9 @@ const CONFIG = {
     },
     {
       id: "3",
-      name: "Calibre-Web",
-      icon: "book-open",
-      link: "http://161.35.139.70:8083/"
+      name: "Backloggd",
+      icon: "gamepad",
+      link: "https://www.backloggd.com/"
     },
     {
       id: "4",
