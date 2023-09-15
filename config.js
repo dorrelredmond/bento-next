@@ -39,7 +39,7 @@ const CONFIG = {
 
   // Search Bar
   searchBar: true,
-  searchEngine: "ddg", // google, ddg
+  searchEngine: "google", // google, ddg
   barStyle: "bento", // bento, minimal, boxy, rounded
   barPlaceholder: "", // if blank, use search engine name. Set to ' ' for no placeholder.
   autoFocusBar: true,
