@@ -190,16 +190,16 @@ const CONFIG = {
       id: "2",
       links: [
         {
-          name: "Proton Mail",
-          link: "https://mail.proton.me"
-        },
-        {
-          name: "Dynalist",
-          link: "https://dynalist.io"
+          name: "Bluesky",
+          link: "https://bsky.app/"
         },
         {
           name: "VT Social",
           link: "https://vt.social"
+        },
+        {
+          name: "Dynalist",
+          link: "https://dynalist.io"
         },
         {
           name: "Discord",
