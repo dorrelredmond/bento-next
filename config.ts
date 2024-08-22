@@ -16,7 +16,7 @@ export const config: Config = {
   title: 'Bento',
 
   // Clock
-  twelveHourFormat: true,
+  twelveHourFormat: false,
   flashSeparator: false,
 
   // Font Family
@@ -114,17 +114,17 @@ export const config: Config = {
       {
         name: 'Backloggd',
         icon: 'gamepad',
-        url: 'https://www.backloggd.com',
+        url: 'https://www.backloggd.com/',
       },
       {
         name: 'Twitter',
         icon: 'fab-twitter',
-        url: 'https://twitter.com',
+        url: 'https://twitter.com/',
       },
       {
         name: 'Reddit',
         icon: 'fab-reddit',
-        url: 'https://reddit.com',
+        url: 'https://reddit.com/',
       },
       {
         name: 'GitHub',
@@ -138,7 +138,7 @@ export const config: Config = {
       {
         name: 'Music',
         icon: 'fab-spotify',
-        url: 'https://open.spotify.com',
+        url: 'https://spotify.com/',
       },
       {
         name: 'twitter',
@@ -148,7 +148,7 @@ export const config: Config = {
       {
         name: 'bot',
         icon: 'fab-discord',
-        url: 'https://discord.com/app',
+        url: 'https://discord.com/app/',
       },
       {
         name: 'Amazon',
@@ -182,15 +182,15 @@ export const config: Config = {
           },
           {
             name: 'Crunchyroll',
-            url: 'https://www.crunchyroll.com',
+            url: 'https://crunchyroll.com',
           },
           {
             name: 'Twitch',
-            url: 'https://www.twitch.tv',
+            url: 'https://twitch.tv',
           },
           {
             name: 'Netflix',
-            url: 'https://www.netflix.com',
+            url: 'https://netflix.com',
           },
         ],
       },
@@ -199,19 +199,19 @@ export const config: Config = {
         links: [
           {
             name: 'Spotfiy',
-            url: 'https://www.open.spotify.com',
+            url: 'https://open.spotify.com',
           },
           {
             name: 'Bluesky',
-            url: 'https://www.bsky.app',
+            url: 'https://bsky.app',
           },
           {
             name: 'VT Social',
-            url: 'https://www.vt.social',
+            url: 'https://vt.social',
           },
           {
             name: 'Discord',
-            url: 'https://www.discord.com/app',
+            url: 'https://discord.com/app',
           },
         ],
       },
