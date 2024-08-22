@@ -2,10 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
-@layer utilities {
-  @variants responsive {
-    .unset {
-      all: unset;
-    }
-  }
-};
+:root {
+  --custom-font: 'Overpass, sans-serif';
+}
+
+body {
+  font-family: var(--custom-font);
+}
