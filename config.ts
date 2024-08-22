@@ -11,12 +11,12 @@ import { Config } from './src/types/config';
 // Use an editor with Typescript support to get autocomplete and validity checking!
 export const config: Config = {
   // General
-  name: 'John',
+  name: 'Dorrel',
   openInNewTab: true,
   title: 'Bento',
 
   // Clock
-  twelveHourFormat: false,
+  twelveHourFormat: true,
   flashSeparator: false,
 
   // Font Family
@@ -50,7 +50,7 @@ export const config: Config = {
 
   // Search Bar
   searchBar: true,
-  searchEngine: 'google', // google, ddg
+  searchEngine: 'ddg', // google, ddg
   barPlaceholder: '', // if blank, use search engine name. Set to ' ' for no placeholder.
   autoFocusBar: true,
 
@@ -93,7 +93,7 @@ export const config: Config = {
     clock: true,
     greeter: true,
     date: true,
-    weather: true,
+    weather: false,
   },
 
   // Buttons
@@ -102,24 +102,24 @@ export const config: Config = {
     // If you're using the 'bento' layout, this is the only group that will be used.
     [
       {
-        name: 'Github', // set the name of the card
-        icon: 'fab-github', // provide a FontAwesome icon name. Regular icons (fa-) don't require a prefix, while FA-Brands icons must be prefixed with "fab-"
-        url: 'https://github.com/', // provide a link to the page.
+        name: 'J-Novel Club', // set the name of the card
+        icon: 'book', // provide a FontAwesome icon name. Regular icons (fa-) don't require a prefix, while FA-Brands icons must be prefixed with "fab-"
+        url: 'https://j-novel.club', // provide a link to the page.
       },
       {
-        name: 'Mail',
-        icon: 'envelope',
-        url: 'https://mail.protonmail.com/',
+        name: 'MyAnimeList',
+        icon: 'list',
+        url: 'https://myanimelist.net/',
       },
       {
-        name: 'Todoist',
-        icon: 'list-ol',
-        url: 'https://todoist.com',
+        name: 'Backloggd',
+        icon: 'gamepad',
+        url: 'https://www.backloggd.com',
       },
       {
-        name: 'Calendar',
-        icon: 'calendar',
-        url: 'https://calendar.google.com/calendar/r',
+        name: 'Twitter',
+        icon: 'fab-twitter',
+        url: 'https://twitter.com',
       },
       {
         name: 'Reddit',
@@ -127,9 +127,9 @@ export const config: Config = {
         url: 'https://reddit.com',
       },
       {
-        name: 'Odysee',
-        icon: 'fab-youtube',
-        url: 'https://odysee.com/',
+        name: 'GitHub',
+        icon: 'fab-github',
+        url: 'https://github.com/',
       },
     ],
     // Second buttons group
@@ -174,44 +174,44 @@ export const config: Config = {
     // If you're using the 'bento' layout, this is the only group that will be used.
     [
       {
-        icon: 'music', // Icon for the list to use. The same as the buttons.
+        icon: 'film', // Icon for the list to use. The same as the buttons.
         links: [
           {
-            name: 'Inspirational', // Display text for the link
-            url: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ', // URL to the page
+            name: 'YouTube', // Display text for the link
+            url: 'https://www.youtube.com', // URL to the page
           },
           {
-            name: 'Classic',
-            url: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+            name: 'Crunchyroll',
+            url: 'https://www.crunchyroll.com',
           },
           {
-            name: 'Oldies',
-            url: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+            name: 'Twitch',
+            url: 'https://www.twitch.tv',
           },
           {
-            name: 'Rock',
-            url: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+            name: 'Netflix',
+            url: 'https://www.netflix.com',
           },
         ],
       },
       {
-        icon: 'coffee',
+        icon: 'globe',
         links: [
           {
-            name: 'Linkedin',
-            url: 'https://www.linkedin.com',
+            name: 'Spotfiy',
+            url: 'https://www.open.spotify.com',
           },
           {
-            name: 'Dribbble',
-            url: 'https://www.dribbble.com',
+            name: 'Bluesky',
+            url: 'https://www.bsky.app',
           },
           {
-            name: 'Trello',
-            url: 'https://www.trello.com',
+            name: 'VT Social',
+            url: 'https://www.vt.social',
           },
           {
-            name: 'Slack',
-            url: 'https://www.slack.com',
+            name: 'Discord',
+            url: 'https://www.discord.com/app',
           },
         ],
       },
