@@ -93,7 +93,7 @@ export const config: Config = {
     clock: true,
     greeter: true,
     date: true,
-    weather: false,
+    weather: true,
   },
 
   // Buttons
