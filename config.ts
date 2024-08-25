@@ -198,7 +198,7 @@ export const config: Config = {
         icon: 'globe',
         links: [
           {
-            name: 'Spotfiy',
+            name: 'Spotify',
             url: 'https://open.spotify.com',
           },
           {
