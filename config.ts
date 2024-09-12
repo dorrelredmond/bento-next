@@ -107,7 +107,7 @@ export const config: Config = {
         url: 'https://j-novel.club', // provide a link to the page.
       },
       {
-        name: 'MyAnimeList',
+        name: 'AniList',
         icon: 'list',
         url: 'https://anilist.co/',
       },
