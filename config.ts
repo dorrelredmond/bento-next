@@ -109,7 +109,7 @@ export const config: Config = {
       {
         name: 'MyAnimeList',
         icon: 'list',
-        url: 'https://myanimelist.net/',
+        url: 'https://anilist.co/',
       },
       {
         name: 'Backloggd',
