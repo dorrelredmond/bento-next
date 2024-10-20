@@ -117,9 +117,9 @@ export const config: Config = {
         url: 'https://www.backloggd.com/',
       },
       {
-        name: 'Twitter',
-        icon: 'fab-twitter',
-        url: 'https://twitter.com/',
+        name: 'Bluesky',
+        icon: 'fab-bluesky',
+        url: 'https://bsky.app/profile/dorrel.moe',
       },
       {
         name: 'Reddit',
@@ -202,12 +202,12 @@ export const config: Config = {
             url: 'https://open.spotify.com',
           },
           {
-            name: 'Bluesky',
-            url: 'https://bsky.app',
-          },
-          {
             name: 'VT Social',
             url: 'https://vt.social',
+          },
+          {
+            name: 'Snue.Moe',
+            url: 'https://snug.moe',
           },
           {
             name: 'Discord',
