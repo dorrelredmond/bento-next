@@ -118,7 +118,7 @@ export const config: Config = {
       },
       {
         name: 'Bluesky',
-        icon: 'fab-bluesky',
+        icon: 'fa-bluesky',
         url: 'https://bsky.app/profile/dorrel.moe',
       },
       {
@@ -206,7 +206,7 @@ export const config: Config = {
             url: 'https://vt.social',
           },
           {
-            name: 'Snue.Moe',
+            name: 'Snug.Moe',
             url: 'https://snug.moe',
           },
           {
