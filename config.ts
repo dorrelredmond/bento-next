@@ -118,7 +118,7 @@ export const config: Config = {
       },
       {
         name: 'Bluesky',
-        icon: 'fab-bluesky',
+        icon: 'fab-twitter',
         url: 'https://bsky.app/profile/dorrel.moe',
       },
       {
@@ -174,6 +174,27 @@ export const config: Config = {
     // If you're using the 'bento' layout, this is the only group that will be used.
     [
       {
+        icon: 'globe', // Icon for the list to use. The same as the buttons.
+        links: [
+          {
+            name: 'Spotify', // Display text for the link
+            url: 'https://open.spotify.com', // URL to the page
+          },
+          {
+            name: 'TickTick',
+            url: 'https://ticktick.com/',
+          },
+          {
+            name: 'Dynalist',
+            url: 'https://dynalist.io',
+          },
+          {
+            name: 'Discord',
+            url: 'https://discord.com/app',
+          },
+        ],
+      },
+      {
         icon: 'film', // Icon for the list to use. The same as the buttons.
         links: [
           {
@@ -191,27 +212,6 @@ export const config: Config = {
           {
             name: 'Netflix',
             url: 'https://netflix.com',
-          },
-        ],
-      },
-      {
-        icon: 'globe',
-        links: [
-          {
-            name: 'Spotify',
-            url: 'https://open.spotify.com',
-          },
-          {
-            name: 'VT Social',
-            url: 'https://vt.social',
-          },
-          {
-            name: 'Snug.Moe',
-            url: 'https://snug.moe',
-          },
-          {
-            name: 'Discord',
-            url: 'https://discord.com/app',
           },
         ],
       },
