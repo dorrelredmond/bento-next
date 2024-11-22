@@ -12,7 +12,7 @@ import { Config } from './src/types/config';
 export const config: Config = {
   // General
   name: 'Dorrel',
-  openInNewTab: true,
+  openInNewTab: false,
   title: 'Bento',
 
   // Clock
@@ -118,7 +118,7 @@ export const config: Config = {
       },
       {
         name: 'Bluesky',
-        icon: 'fa-bluesky',
+        icon: 'fab-bluesky',
         url: 'https://bsky.app/profile/dorrel.moe',
       },
       {
